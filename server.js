@@ -16,7 +16,7 @@ app.set('view engine', 'hbs');
 //req es lo que llega y res es lo que se envia
 app.get('/',  (req, res) => {
   res.render('home.hbs',{
-    nombre: 'Mackley',
+    nombre: 'Sorany',
    titulo_web: 'Home | Demo'
   });
 });
